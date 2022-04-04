@@ -40,7 +40,7 @@ class BinaryTree
     public: 
         BinaryTree()
         {
-            root = NULL;
+            root = nullptr;
         }
 
         BinaryTree(Node *r)
@@ -68,7 +68,7 @@ class BinaryTree
 
         bool isEmpty()
         {
-            return root == NULL;
+            return root == nullptr;
         }
 
         Node *leftChildren()
