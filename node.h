@@ -1,3 +1,6 @@
+/** Dulce Adelina Zuñiga Ramos
+ *  31/03/2022
+ *  Binary Trees */ 
 typedef int ElementType;
 
 class Node
@@ -10,7 +13,7 @@ class Node
         Node(ElementType value)
         {
             data = value;
-            left = right = NULL;
+            left = right = nullptr;
         }
         Node(ElementType value, Node* leftLink, Node* rightLink)
         {
