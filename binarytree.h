@@ -1,6 +1,3 @@
-/** Dulce Adelina Zuñiga Ramos
- *  31/03/2022
- *  Binary Trees */ 
 #include <string>
 typedef std::string ElementType;
 
@@ -82,7 +79,7 @@ class BinaryTree
         Node *rightChildren()
         {
             if(root)
-                return root->rightSubtree();
+                return root->rightSubtree;
             else
                 throw "empty tree";
         }
